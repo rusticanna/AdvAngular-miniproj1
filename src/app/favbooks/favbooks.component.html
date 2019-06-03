@@ -1,0 +1,6 @@
+Favourite Books:
+<ul>
+  <li *ngFor="let favBook of favBooks">{{favBook}}
+    <button type="button" (click)="addBook(favBook)">Add</button>
+  </li>
+</ul>

@@ -1,0 +1,6 @@
+Books:
+<ul>
+  <li *ngFor="let book of books">{{book}}</li>
+</ul>
+
+<app-favbooks (addBookEvent)="newBook($event)"></app-favbooks>
